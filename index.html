@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="little-moles">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>リトルもぐら叩き</title>
+  <meta name="description"
+    content="よくよく考えれば酷いコンセプトでおなじみの「もぐら叩き」。人間の娯楽のために暴力を振るわれるなんてかわいそう。このゲームはもぐらを小さくすることで悲壮感をだいぶ抑えることに成功した画期的なゲームです。">
+  <link rel="canonical" href="https://maportf.web.app/little-moles/">
+
+  <!-- Facebook Tags -->
+  <meta property="og:url" content="https://maportf.web.app/little-moles/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="リトルもぐら叩き">
+  <meta property="og:description"
+    content="よくよく考えれば酷いコンセプトでおなじみの「もぐら叩き」。人間の娯楽のために暴力を振るわれるなんてかわいそう。このゲームはもぐらを小さくすることで悲壮感をだいぶ抑えることに成功した画期的なゲームです。">
+  <meta property="og:image" content="https://maportf.web.app/little-moles/images/meta_image.png">
+
+  <!-- Twitter Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="リトルもぐら叩き">
+  <meta name="twitter:description"
+    content="よくよく考えれば酷いコンセプトでおなじみの「もぐら叩き」。人間の娯楽のために暴力を振るわれるなんてかわいそう。このゲームはもぐらを小さくすることで悲壮感をだいぶ抑えることに成功した画期的なゲームです。">
+  <meta name="twitter:image" content="https://maportf.web.app/little-moles/images/meta_image.png">
+
+  <!-- Favicon -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115301648-8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115301648-8');
+  </script>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1 class="title">リトルもぐら叩き</h1>
+    <div class="lead">
+      <p>よくよく考えれば酷いコンセプトでおなじみの「もぐら叩き」。人間の娯楽のために暴力を振るわれるなんてかわいそう。このゲームはもぐらを小さくすることで悲壮感をだいぶ抑えることに成功した画期的なゲームです。</p>
+      <p>黒いエリアのどこかにもぐらが出てくるのでタップ！Comboをつなげて高得点を目指せ！…「もぐら叩き」じゃなくて「ノミ潰し」の方がしっくりくるかも。</p>
+    </div>
+    <button id="play-button" class="button">Play</button>
+    <div class="canvas-container">
+      <canvas class="canvas"></canvas>
+    </div>
+    <div class="record">
+      <div class="record-inner">
+        <div class="record-baloon">
+          <h2 class="record-label">Best Score</h2>
+          <p class="record-point">
+            <span class="record-point-value">0</span>
+          </p>
+        </div>
+        <div id="newButton"></div>
+      </div>
+    </div>
+    <div class="sup">
+      <ul>
+        <li>※遊ぶ前に画面を綺麗にしましょう</li>
+        <li>※目に負担がかかるので1プレイ後に5分以上休憩を取りましょう</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="/scripts/app.bundle.js"></script>
+  <script>
+    window.twttr = (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function (f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));
+  </script>
+
+</body>
+
+</html>
